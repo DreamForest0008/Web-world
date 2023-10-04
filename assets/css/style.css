@@ -1,0 +1,632 @@
+/*********************  Default-CSS  *********************/
+:root {
+	scroll-behavior: unset;
+}
+
+html {
+	-webkit-text-size-adjust: none
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+	color: #8392A7;
+	background-color: #000000;
+	font-size: 18px;
+	line-height: 1.4;
+	font-weight: 400;
+}
+
+a,
+span,
+a:hover,
+a:active,
+button {
+	text-decoration: none;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+button:focus {
+	box-shadow: none !important;
+}
+
+p {
+	margin: 0;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+	margin: 0;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.row {
+	margin: 0 -15px;
+}
+
+.container {
+	padding: 0 15px;
+}
+
+.col,
+[class*=col-] {
+	padding: 0 15px;
+}
+
+.common_btn {
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	border-radius: 30px;
+	background: #3b7cff;
+	box-shadow: 0px 5px 20px rgba(59, 124, 255, 0.2);
+	padding: 10px 22px;
+	border: 1px solid #3b7cff;
+	;
+	line-height: 1;
+}
+
+.common_btn:hover {
+	background-color: #fff;
+	color: #3b7cff;
+}
+
+/*********************  Default-CSS  End *********************/
+
+/************    Header    ************/
+.container {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+header {
+	background-color: black;
+	padding: 15px;
+	position: absolute;
+	width: 100%;
+}
+
+.hed {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.logo {
+	height: 50px;
+}
+
+.humbegr_menu {
+	display: none;
+	position: relative;
+}
+
+.menus {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+	gap: 50px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.menus li a {
+	color: #fff;
+}
+
+
+.button_wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.btn {
+	max-width: 200px;
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(90deg, rgba(64, 173, 104, 1) 0%, rgba(118, 192, 68, 1) 100%);
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 4px;
+}
+
+.btn:hover {
+	background-color: rgb(0, 70, 23);
+}
+
+.banner_wrapper {
+	background-image: url(../images/bg_mane_image1.png), url(../images/horizon-big-1-1.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner_title {
+	margin-top: 290px;
+}
+
+.banner_inner h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+}
+
+.banner_title p {
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	max-width: 770px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/************    Header End   ************/
+
+/************    Services    ************/
+
+.cm_padding {
+	padding: 120px 0;
+}
+
+.services_wrapper {
+	background-image: url(../images/bg_mane_image1.png);
+}
+
+.our_services {
+	text-align: right;
+}
+
+.main_title {
+	font-size: 38px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.our_services p {
+	max-width: 40%;
+	margin-left: auto;
+	color: #747D8C;
+	text-align: right;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+}
+
+.button a {
+	margin-top: 30px;
+	background: linear-gradient(90deg, rgba(64, 173, 104, 1) 0%, rgba(118, 192, 68, 1) 100%);
+	border-radius: 4px;
+	position: relative;
+	padding: 16px 40px;
+	display: inline-block;
+	color: #fff;
+	font-weight: 600;
+}
+
+.services {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.services_card {
+	border-radius: 95px 0px;
+	border: 1.5px solid #6F608C;
+	background: #000216;
+	box-shadow: 0px 4px 40px 10px rgba(0, 0, 0, 0.03);
+	width: 370px;
+	height: 450px;
+}
+
+.services_card .icon {
+	width: 145px;
+	height: 145px;
+	border-radius: 45px 0px 54px 0px;
+	background: #F6F6F6;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.services_card_1 {
+	margin-top: -590px;
+}
+
+.services_card_2 {
+	margin-top: -270px;
+}
+
+.services_card_1 .icon img {
+	margin: 20% 20%;
+}
+
+.services_card_2 .icon img {
+	margin: 20% 20%;
+}
+
+.services_card_3 .icon img {
+	margin: 20% 20%;
+}
+
+.services h3 {
+	color: #FFF;
+	text-align: center;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 33px;
+	letter-spacing: 0.1px;
+	margin-top: 40px;
+}
+
+.services p {
+	color: #747D8C;
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0.1px;
+	padding: 10px 30px;
+}
+
+/************    Services End    ************/
+
+hr {
+	border: 1px solid #262647;
+}
+
+/************    Web Development     ************/
+
+.web_development_wrapper {
+	background-image: url(../images/bg_mane_image1.png);
+}
+
+.web_development h2 {
+	text-align: center;
+}
+
+.development {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 70px;
+}
+
+.development_cad {
+	width: 256px;
+}
+
+.development_cad .icon {
+	width: 123px;
+	height: 123px;
+	border-radius: 45px 0px 54px 0px;
+	background: #F6F6F6;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.development_cad .icon img {
+	margin: 19% 19%;
+}
+
+.development_cad h3 {
+	color: #FFF;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 40px;
+}
+
+/************    Web Development End     ************/
+
+/************    Testimonial Start     ************/
+
+.testimonial_wrapper {
+	/* background-image: url(../images/bg_mane_image1.png); */
+	background-color: #000d57;
+	border-radius: 0 150px 0 150px ;
+}
+
+.testimonial_slider {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.testimonial-card {
+	padding: 30px;
+	background-color: #000d57;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.testimonial h2 {
+	text-align: center;
+}
+
+.wrap-cir-pic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrap-cir-pic img {
+	width: 100px;
+	border: 3px solid rgba(64, 173, 104, 1);
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.testimonial-card p {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	line-height: 26px
+}
+
+.star-review {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	gap: 5px;
+	color: yellow;
+}
+
+.testimonial_slider.owl-carousel .owl-item img {
+	width: 100px;
+}
+
+/************    Testimonial End     ************/
+
+
+/************    Our_Portfolio Start     ************/
+
+.our_portfolio_wrapper {
+	background-image: url(../images/bg_mane_image1.png);
+}
+
+.our_portfolio h2 {
+	text-align: center;
+}
+
+.our_portfolio_box {
+	display: flex;
+	gap: 30px;
+	margin-top: 50px;
+}
+
+.box .image {
+	margin-bottom: 20px;
+}
+
+.box_1 {
+	margin-top: 30px;
+}
+
+.box_1 .image {
+	margin-bottom: 20px;
+}
+
+/************    Our_Portfolio End     ************/
+
+/************    Our_Team Start     ************/
+
+.our_team h2 {
+	text-align: center;
+}
+.team_box{
+	width: 287px;
+	height: 100%;
+	border-radius: 4px;
+	background-color: #5561aa;
+}
+.our_team_box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.team-image img{
+	width: 287px;
+	height: 100%;
+	border-radius: 6px;
+}
+.team-text{
+	padding: 20px;
+}
+.team-text h4{
+	color: #fff;
+}
+.team-text p{
+	color: #ddd;
+	font-size: 14px;
+}
+
+
+/************    Our_Team End     ************/
+
+/************    Footer Start     ************/
+.footer_wrapper {
+	background-image: url(../images/bg_mane_image1.png);
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer-logo img {
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+.footer-col .social-link a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #0066ff;
+	text-decoration: none;
+	color: #FFF;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-link a:hover {
+	background: linear-gradient(180deg, #4AFF0B 0%, #00FF85 100%);
+	color: #0e45aa;
+	box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3);
+
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #FFF;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 600;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #3b7cff;
+	height: 2px;
+	box-sizing: border-box;
+	width: 25px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 400;
+	color: #ddd;
+	display: block;
+	transition: all 0.5s ease;
+}
+
+.footer-col ul li a:hover {
+	color: rgb(0, 253, 114);
+	padding-left: 8px;
+	font-weight: 600;
+}
+
+.footer-col .address {
+	display: flex;
+}
+
+.footer-col .address i {
+	margin-right: 10px;
+	margin-top: 3px;
+	color: #01ffaa;
+}
+
+.footer-col .address p {
+	margin-bottom: 15px;
+	color: #ddd;
+}
+
+.footer-col .address p a {
+	text-decoration: none;
+	color: #ddd;
+}
+
+
+/************    Footer Start     ************/
